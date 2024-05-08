@@ -7,6 +7,8 @@ options {
 
 PARSER_BEGIN(ExpressionParser)
 
+package com.example;
+
 public class ExpressionParser {
 
   public static void main(String args[]) throws Exception {
