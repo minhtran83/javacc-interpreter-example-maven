@@ -10,8 +10,7 @@ PARSER_BEGIN(ExpressionParser)
 package com.example;
 
 public class ExpressionParser {
-
-  public static void main(String args[]) throws Exception {
+  public static void main(String []args) throws Exception {
     ExpressionParser parser = new ExpressionParser(new java.io.FileReader(args[0]));
     //ExpressionParser parser = new ExpressionParser(System.in);
     ASTstart expr=parser.start();
